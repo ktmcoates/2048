@@ -6,6 +6,9 @@ The original version is a small clone of [1024](https://play.google.com/store/ap
 ### Notes for the Udacity version
 We're using this version as the recommended fork to avoid potential learning issues as the original source changes (and the Udacity videos don't update). You can [fork the original repo as well](https://github.com/gabrielecirulli/2048)
 
+### Notes for Katie's Great Comet version
+Andrey isn't here
+
 ## License
 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
 
