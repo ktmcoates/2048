@@ -6,7 +6,6 @@ html, body {
   background: #6a0320;
   color: #f9f4d9;
   font-family: "Garamond", Arial, sans-serif;
-  font-family: "Garamond", Arial,sans-serif;
   font-size: 18px; }
 
 body {
@@ -26,7 +25,8 @@ h1.title {
   font-weight: medium;
   margin: 0;
   display: block;
-  float: left; }
+  float: left;
+  text-align: left; }
 
 @-webkit-keyframes move-up {
   0% {
@@ -554,7 +554,7 @@ hr {
   animation-fill-mode: backwards; }
 
 .above-game {
-  margin-top: 10px;
+
 }
 
 .above-game:after {
@@ -563,10 +563,13 @@ hr {
   clear: both; }
 
 .game-intro {
-  margin-top: 5px;
-  float: left;
-  line-height: 30px;
-  margin-bottom: 0; }
+   
+    margin-top: 0;
+    padding: 15px;
+    min-width: 40px; 
+    text-align: right;
+   
+}
 
 .game-explanation {
   margin-top: 50px;
@@ -603,12 +606,6 @@ hr {
 
   .heading {
     margin-bottom: 10px; }
-
-  .game-intro {
-    width: 100%;
-    display: block;
-    box-sizing: border-box;
-    line-height: 1.65; }
 
   .restart-button, .retry-button {
     width: 42%;
@@ -811,7 +808,7 @@ hr {
     margin: 0 auto;
     margin-bottom: 20px; } 
 
-.restart-button, a.retry-button {
+a.restart-button, a.retry-button {
   display: inline-block;
   background: #1e6477;
   border-radius: 3px;
@@ -824,9 +821,7 @@ hr {
   text-align: center;
   float: right; 
   margin-top: 7px;
-}
 
-a.retry-button {
   width: 150px;
   height: 40px;
   padding: 0;
@@ -835,9 +830,7 @@ a.retry-button {
   display: inline-block;
   margin: 0;
   line-height: 42px;
-}
 
-a.retry-button {
   margin-left: 10px;
   float: center;
 }
